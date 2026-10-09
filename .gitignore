@@ -1,0 +1,22 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+.python-version
+
+# Data, checkpoints, outputs (large / reproducible)
+data/*
+!data/.gitkeep
+checkpoints/
+outputs/
+*.pt
+*.wav
+*.flac
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
