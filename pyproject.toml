@@ -1,0 +1,18 @@
+[project]
+name = "speech-to-text"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "jiwer>=4.0.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "soundfile>=0.14.0",
+    "torch>=2.14.1",
+    "torchaudio>=2.11.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
